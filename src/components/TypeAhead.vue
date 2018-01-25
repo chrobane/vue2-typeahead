@@ -1,5 +1,5 @@
 <template>
-    <div class="input-group" :class="[classes]">
+    <div :class="[classes]">
       <input type="text" class="form-control"
              :placeholder="placeholder"
              autocomplete="off"
